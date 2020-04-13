@@ -9,13 +9,16 @@ body,
 
 .main {
   display: flex;
-  /* direction: row; */
   overflow: hidden;
   background-color: #000;
 }
 
 .video {
-  width: 100%;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
 }
 
 .backdrop {
@@ -33,12 +36,13 @@ body,
 .title {
   color: #fff;
   text-transform: uppercase;
-  font-family: 'Kanit', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 120px;
+  font-weight: 200;
 }
 
-.thin {
-  font-weight: 100;
+.bold {
+  font-weight: 500;
 }
 
 .breakline {
